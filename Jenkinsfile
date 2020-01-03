@@ -8,7 +8,6 @@ node {
 			snyk 'Snyk-latest'
 		}
 		steps {
-			severity: 'high',
 			snykInstallation: 'Snyk-latest',
 			snykTokenId: 'snyk-token',
 			targetFile: 'requirements.txt',
